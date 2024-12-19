@@ -284,7 +284,6 @@ dependencies:
   - pip:
       - ciso8601==2.3.1
       - coloredlogs==15.0.1
-      - coralign==2024.1.12
       - dbingest==2023.12.21
       - fsspec==2024.9.0
       - hcipy==0.6.0
