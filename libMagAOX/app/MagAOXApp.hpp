@@ -1291,6 +1291,7 @@ void MagAOXApp<_useINDI>::setDefaults( int argc,
                 false,
                 "string",
                 "The name of the application, specifies config." );
+
     config.parseCommandLine( argc, argv, "name" );
     config( m_configName, "name" );
 

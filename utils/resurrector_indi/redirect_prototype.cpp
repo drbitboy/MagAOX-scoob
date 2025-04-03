@@ -136,7 +136,7 @@ public:
             fullpath += (fullpath.empty() ? "" : "/") + *it;
 
             struct stat stbuf;
-	    memset(&stbuf, 0, sizeof(stbuf));
+            memset(&stbuf, 0, sizeof(stbuf));
 
             /// Get directory status; true if stat(...) fails
             if (stat(fullpath.c_str(),&stbuf))
